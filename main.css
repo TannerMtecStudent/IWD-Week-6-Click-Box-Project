@@ -1,0 +1,23 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#board{
+    margin: 150px;
+    width: 440px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.darkBox{
+    background-color: rgb(59, 76, 76);
+    width: 100px;
+    height: 100px;
+    margin:5px;
+}
+.lightBox{
+    background-color: gray;
+}
